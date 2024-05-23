@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "par",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -20,30 +20,30 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "turniplabs.examplemod.ExampleMod"
+        "value": "hootisman.par.ExampleMod"
       }
     ],
     "beforeGameStart": [
       {
         "adapter": "kotlin",
-        "value": "turniplabs.examplemod.ExampleMod"
+        "value": "hootisman.par.ExampleMod"
       }
 		],
     "afterGameStart": [
       {
         "adapter": "kotlin",
-        "value": "turniplabs.examplemod.ExampleMod"
+        "value": "hootisman.par.ExampleMod"
       }
 		],
     "recipesReady": [
       {
         "adapter": "kotlin",
-        "value": "turniplabs.examplemod.ExampleMod"
+        "value": "hootisman.par.ExampleMod"
       }
 		]
   },
   "mixins": [
-    "examplemod.mixins.json"
+		"par.mixins.json"
   ],
 
   "depends": {

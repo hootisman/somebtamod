@@ -1,4 +1,4 @@
-package turniplabs.examplemod
+package hootisman.par
 
 import net.fabricmc.api.ModInitializer
 import org.slf4j.Logger
@@ -8,7 +8,7 @@ import turniplabs.halplibe.util.RecipeEntrypoint
 
 object ExampleMod: ModInitializer, GameStartEntrypoint, RecipeEntrypoint {
     @JvmField
-    val MODID: String = "examplemod"
+    val MODID: String = "par"
 
     @JvmField
     val LOGGER: Logger = LoggerFactory.getLogger(MODID)
